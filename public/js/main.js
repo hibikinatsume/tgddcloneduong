@@ -1,1 +1,34 @@
-console.log('OK');
+// Sub Banner
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+    let slides = document.getElementsByClassName("slides");
+    let subBanner = document.getElementById("sub-banner")
+
+    if (n > slides.length) {
+        slideIndex = 1
+    }
+    if (n < 1) {
+        slideIndex = slides.length
+    }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+
+    slides[slideIndex-1].style.display = "block";
+
+    if (slideIndex == 1) {
+        subBanner.style.backgroundColor = "#ffc602";
+    }
+    if (slideIndex == 2) {
+        subBanner.style.backgroundColor = "#ffb700";
+    }
+    if (slideIndex == 3) {
+        subBanner.style.backgroundColor = "#4a911c";
+    }
+}
