@@ -192,7 +192,7 @@ body {
     color: #333;
     font-size: 12px;
     line-height: 14px;
-    padding: 8px 10px;
+    padding: 8px 8px;
     width: 9%;
     background: #ffac0a99;
     text-decoration: none;
@@ -247,7 +247,7 @@ body {
 }
 
 .header .sub-header .sub-menu .title {
-    padding: 0 13px;
+    padding: 0 12px;
     text-align: center;
 }
 
@@ -438,4 +438,80 @@ body {
     object-fit: cover;
     display: block;
     margin: 0 auto;
+}
+
+/* Content */
+.content {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.content .birthday .container {
+    position: relative;
+    margin: auto;
+    margin: 30px 0;
+    border: 8px;
+    display: block;
+    margin-top: -92px;
+    width: unset;
+}
+
+.content .birthday .container img {
+    border-radius: 12px;
+}
+
+.content .birthday .container img:hover {
+    cursor: pointer;
+}
+
+.content .birthday .container .owl-theme .owl-dots {
+    display: none;
+}
+
+.content .birthday .container .owl-nav {
+    position: absolute;
+    top: 36%;
+    width: 100%;
+}
+
+.content .birthday .container .owl-nav button {
+    background: #fff !important;
+    height: 44px;
+    position: absolute;
+    width: 44px;
+    opacity: .7;
+    border-radius: 100% !important;
+    left: -22px;
+    filter: drop-shadow(0 4px 7px rgba(0,0,0,.15));
+    top: 0;
+    transform: translateY(0);
+}
+
+.content .birthday .container .owl-nav button::after {
+    content: '';
+    position: absolute;
+    border-top: 2px solid #666;
+    border-left: 2px solid #666;
+    height: 8px;
+    width: 8px;
+    right: 19px;
+    top: 18px;
+    transform: rotate(135deg);
+}
+
+.content .birthday .container .owl-nav .owl-prev::after {
+    left: 20px;
+    top: 18px;
+    transform: rotate(-45deg);
+}
+
+.content .birthday .container .owl-nav .owl-next {
+    right: -22px;
+    left: unset;
+}
+
+.content .birthday .container .owl-nav button span {
+    font-size: 0;
 }

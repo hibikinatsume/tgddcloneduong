@@ -32,3 +32,15 @@ function showSlides(n) {
         subBanner.style.backgroundColor = "#4a911c";
     }
 }
+
+// 
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    items:2,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true
+});
