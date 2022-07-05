@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: #f3f3f3;
 }
 
 .container {
@@ -410,4 +410,32 @@ body {
 
 .header .main-header .main-menu .item .menu-child .child a h3:hover {
     font-weight: 600;
+}
+
+/* Main Banner */
+.main-banner {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.main-banner .show {
+    width: 1920px;
+    min-width: 1920px;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.main-banner .show img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
 }
