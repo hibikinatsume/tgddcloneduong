@@ -515,3 +515,48 @@ body {
 .content .birthday .container .owl-nav button span {
     font-size: 0;
 }
+
+.content .option-sale {
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 12px;
+    margin: 0 0 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.content .option-sale .item {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100%/3 - 16px);
+    margin-right: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 15px 0;
+}
+
+.content .option-sale .item a {
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.content .option-sale .item a img {
+    display: inline-block;
+    vertical-align: middle;
+    height: 70px;
+    border: 0;
+}
+
+.content .option-sale .item a span {
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    color: #222;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: left;
+    margin-left: 10px;
+    max-width: 65%;
+}
