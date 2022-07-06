@@ -6,6 +6,9 @@
 
 body {
     background-color: #f3f3f3;
+    font: 14px/18px Arial,Helvetica,sans-serif;
+    color: #333;
+    outline: none;
 }
 
 .container {
@@ -774,4 +777,147 @@ body {
 .content .payment .container .owl-nav .owl-next {
     right: -22px;
     left: unset;
+}
+
+.content .service {
+    display: block;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.content .service .title {
+    display: block;
+    overflow: hidden;
+    padding: 15px 22px;
+    font-size: 22px;
+    line-height: 36px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.content .service .title a {
+    float: right;
+    font-weight: 500;
+    color: #555;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.content .service .title a::after {
+    content: '';
+    border-top: 1px solid #333;
+    border-right: 1px solid #333;
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 2px 5px;
+    transform: rotate(45deg);
+}
+
+.content .service .show {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0 22px 30px;
+}
+
+.content .service .show .item {
+    float: left;
+    width: 283px;
+    margin: 0 12px 0 0;
+    border-radius: 14px;
+    padding: 14px 10px;
+    background: #dceeff;
+    cursor: pointer;
+}
+
+.content .service .show .item:nth-child(2) {
+    background: #fef5cf;
+}
+
+.content .service .show .item:nth-child(3) {
+    background: #ffefdb;
+}
+
+.content .service .show .item:nth-child(4) {
+    background: #e1fecf;
+    float: right;
+    margin-right: 0;
+}
+
+.content .service .show .item .icon {
+    float: left;
+    width: 38px;
+    margin-right: 12px;
+}
+
+.content .service .show .item .icon i {
+    background-image: url(//cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/homev2/desk/iconnew.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    background-size: 310px 257px;
+}
+
+.content .service .show .item .icon .icon-card {
+    background-position: -273px -89px;
+    width: 38px;
+    height: 38px;
+}
+
+.content .service .show .item .icon .icon-service {
+    background-position: -273px -133px;
+    width: 38px;
+    height: 38px;
+}
+
+.content .service .show .item .icon .icon-game {
+    background-position: -272px -175px;
+    width: 38px;
+    height: 38px;
+}
+
+.content .service .show .item .icon .icon-ticket {
+    background-position: -273px -219px;
+    width: 38px;
+    height: 38px;
+}
+
+.content .service .show .item .text {
+    display: block;
+    overflow: hidden;
+}
+
+.content .service .show .item .text a {
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.content .service .show .item .text a div {
+    display: block;
+    overflow: hidden;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333;
+}
+
+.content .service .show .item .text a .text-title {
+    font-weight: 500;
+    padding: 6px 0 12px;
+    display: block;
+    overflow: hidden;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333;
+}
+
+.content .service .show .item .text a strong {
+    color: #ff0b0b;
 }
