@@ -54,3 +54,20 @@ $('#owl-two').owlCarousel({
     autoplayTimeout:1000,
     autoplayHoverPause:true
 });
+
+// Active product option
+$('.product-option a').click(function(){
+    $('.product-option a').removeClass('active');
+    $(this).addClass('active');
+    console.log($(this).data('id'));
+    $('.product-list .show').css('display', 'none');
+    $('#list-'+ $(this).data('id')).css('display', 'unset');
+    $('.btn-more').css('display', 'block');
+    $('.load-more').css('display', 'none');
+});
+
+// Load more product
+$('.btn-more').click(function() {
+    $('.more-'+$(this).data('id')).css('display', 'unset');
+    $(this).css('display', 'none');
+});
