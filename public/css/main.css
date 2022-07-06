@@ -560,3 +560,218 @@ body {
     margin-left: 10px;
     max-width: 65%;
 }
+
+.content .trending {
+    display: block;
+    overflow: hidden;
+    margin: 0 0 30px;
+    border-radius: 12px;
+    background: linear-gradient(90deg,#ffecd2 0%,#fcb69f 100%);
+}
+
+.content .trending .title {
+    display: block;
+    overflow: hidden;
+    padding: 15px 22px;
+    font-size: 22px;
+    line-height: 36px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.content .trending .show {
+    display: flex;
+    flex-flow: row wrap;
+    overflow: hidden;
+    padding: 0 22px 30px;
+}
+
+.content .trending .show .item {
+    float: left;
+    width: 280px;
+    margin: 0 12px 0 0;
+    position: relative;
+}
+
+.content .trending .show .last-item {
+    margin: 0;
+}
+
+.content .trending .show .item .info {
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.content .trending .show .item .info img {
+    display: block;
+    width: 100%;
+}
+
+.content .trending .show .item .info span {
+    position: absolute;
+    bottom: 58px;
+    left: 18px;
+    font-size: 16px;
+    line-height: 14px;
+    color: #333;
+}
+
+.content .trending .show .item .info strong {
+    position: absolute;
+    bottom: 24px;
+    left: 18px;
+    font-size: 17px;
+    line-height: 20px;
+    color: #2f80ed;
+    font-weight: 500;
+}
+
+.content .category {
+    display: block;
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: 30px;
+    border-radius: 12px;
+}
+
+.content .category .title {
+    display: block;
+    overflow: hidden;
+    padding: 15px 22px;
+    font-size: 22px;
+    line-height: 36px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.content .category .show {
+    display: block;
+    overflow: hidden;
+    padding: 0 40px 30px;
+}
+
+.content .category .show .list {
+    display: flex;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.content .category .show .list .item {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 0;
+}
+
+.content .category .show .list .item a {
+    display: block;
+    overflow: hidden;
+    color: #333;
+    text-align: center;
+    width: 112px;
+    text-decoration: none;
+}
+
+.content .category .show .list .item a .thumb {
+    margin: auto;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.content .category .show .list .item a .thumb img {
+    display: block;
+    margin: auto;
+    width: auto;
+    height: 60px;
+}
+
+.content .category .show .list .item a span {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    padding: 0 5px;
+    font: 14px/18px Arial,Helvetica,sans-serif;
+    color: #333;
+    outline: none;
+}
+
+.content .payment {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.content .payment .title {
+    display: block;
+    overflow: hidden;
+    font-size: 22px;
+    line-height: 36px;
+    color: #333;
+    text-transform: uppercase;
+    padding: 0 0 15px;
+}
+
+
+.content .payment .container {
+    position: relative;
+    margin: 30px 0;
+    border: 8px;
+    display: block;
+    margin: 0;
+    width: unset;
+}
+
+.content .payment .container img {
+    border-radius: 12px;
+}
+
+.content .payment .container .owl-dots {
+    display: none;
+}
+
+.content .payment .container .owl-nav {
+    position: absolute;
+    top: 36%;
+    width: 100%;
+}
+
+.content .payment .container .owl-nav button {
+    background: #fff !important;
+    height: 44px;
+    position: absolute;
+    width: 44px;
+    opacity: .7;
+    border-radius: 100% !important;
+    border: #e1e1e1;
+    left: -22px;
+    filter: drop-shadow(0 4px 7px rgba(0,0,0,.15));
+    top: 0;
+    transform: translateY(0);
+}
+
+.content .payment .container .owl-nav button span {
+    font-size: 0px;
+}
+
+.content .payment .container .owl-nav button::after {
+    content: '';
+    position: absolute;
+    border-top: 2px solid #666;
+    border-left: 2px solid #666;
+    height: 8px;
+    width: 8px;
+    right: 19px;
+    top: 18px;
+    transform: rotate(135deg);
+}
+
+.content .payment .container .owl-nav .owl-prev::after {
+    left: 20px;
+    top: 18px;
+    transform: rotate(-45deg);
+}
+
+.content .payment .container .owl-nav .owl-next {
+    right: -22px;
+    left: unset;
+}

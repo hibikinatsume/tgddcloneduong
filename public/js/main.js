@@ -33,13 +33,23 @@ function showSlides(n) {
     }
 }
 
-// 
-var owl = $('.owl-carousel');
-owl.owlCarousel({
+// Slideshow birthday 
+$('#owl-one').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
     items:2,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true
+});
+
+// Slideshow payment
+$('#owl-two').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    items:3,
     autoplay:true,
     autoplayTimeout:1000,
     autoplayHoverPause:true
