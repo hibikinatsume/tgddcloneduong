@@ -1177,3 +1177,249 @@ body {
 .content .product .product-list .list .load-more {
     display: none;
 }
+
+.clearfix {
+    display: block;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    clear: both;
+    border-top: 1px solid #e2e2e2;
+    background: #fff;
+    margin-top: 10px;
+}
+
+.footer .footer-top {
+    padding: 15px 0 5px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer .footer-top .show {
+    float: left;
+    width: 24%;
+}
+
+.footer .footer-top .show:nth-child(3) {
+    width: 23%;
+}
+
+.footer .footer-top .show:nth-child(4) {
+    width: 29%;
+}
+
+.footer .footer-top .show .list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .footer-top .show .list .item {
+    margin-bottom: 10px;
+}
+
+.footer .footer-top .show .list .item a {
+    color: #333;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.footer .footer-top .show .list .item a:hover {
+    color: #2f80ed;
+}
+
+.footer .footer-top .show .list .item .last-item {
+    position: relative;
+}
+
+.footer .footer-top .show .list .item .last-item::before {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #333;
+    content: '';
+    position: absolute;
+    top: 7px;
+    right: -15px;
+}
+
+.footer .footer-top .show .list .item .call {
+    color: #0d6efd;
+    font-weight: 600;
+}
+
+.footer .footer-top .show .list .item .name-call {
+    width: 65px;
+    display: inline-block;
+}
+
+.footer .footer-top .show .social,
+.footer .footer-top .show .certificate {
+    margin-bottom: 20px;
+}
+
+.footer .footer-top .show .social a {
+    color: #2f80ed;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.footer .footer-top .show .social .fb .icon-fb {
+    background-image: url(//cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/homev2/desk/icon_common@2x.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: middle;
+    background-size: 300px 200px;
+    background-position: -225px 0;
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
+}
+
+.footer .footer-top .show .social .yt .icon-yt {
+    background-image: url(//cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/homev2/desk/icon_common@2x.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: middle;
+    background-size: 300px 200px;
+    background-position: -200px 0;
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
+}
+
+.footer .footer-top .show .certificate a {
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.footer .footer-top .show .certificate a i {
+    background-image: url(//cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/homev2/desk/icon_common@2x.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: middle;
+    background-size: 300px 200px;
+}
+
+.footer .footer-top .show .certificate a .icon-1 {
+    background-position: -200px -30px;
+    height: 24px;
+    width: 79px;
+}
+
+.footer .footer-top .show .certificate a .icon-2 {
+    background-position: -250px 0;
+    height: 25px;
+    width: 25px;
+}
+
+.footer .footer-top .show .certificate a .icon-3 {
+    background-position: -80px -60px;
+    height: 24px;
+    width: 122px;
+}
+
+.footer .footer-top .show .certificate a img {
+    width: 85px;
+}
+
+.footer .footer-top .show .group .group-list .name {
+    color: #222;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.footer .footer-top .show .group .group-list .list {
+    font-size: 0;
+    margin-top: 15px;
+}
+
+.footer .footer-top .show .group .group-list .list .item {
+    float: left;
+    width: 80px;
+    margin: 0 8px 8px 0;
+}
+
+.footer .footer-top .show .group .group-list .list .item:nth-child(4n+4) {
+    margin-right: 0;
+}
+
+.footer .footer-top .show .group .group-list .list .item a {
+    display: block;
+    margin-right: 10px;
+}
+
+.footer .footer-top .show .group .group-list .list .item a i {
+    background-image: url(//cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/DMX/Global/Desktop/Logo-webmoi.png?v=3);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 24px;
+    width: 80px;
+    line-height: 30px;
+    vertical-align: middle;
+    background-size: 250px 200px;
+}
+
+.footer .footer-top .show .group .group-list .list .item a .icon-1 {
+    background-position: 0 -58px;
+}
+
+.footer .footer-top .show .group .group-list .list .item a .icon-2 {
+    background-position: -85px 0;
+}
+
+.footer .footer-top .show .group .group-list .list .item a .icon-3 {
+    background-position: -170px 0;
+}
+
+.footer .footer-top .show .group .group-list .list .item a .icon-4 {
+    background-position: -85px -90px;
+}
+
+.footer .footer-top .show .group .group-list .list .item a .icon-5 {
+    background-position: -170px -29px;
+}
+
+.footer .footer-top .show .group .group-list .list .item a .icon-6 {
+    background-position: 0 -29px;
+}
+
+.footer .footer-top .show .group .group-list .list .item a .icon-7 {
+    background-position: -170px -90px;
+}
+
+.footer .footer-top .show .group .group-list .list .item a .icon-8 {
+    background-position: 0 -90px;
+}
+
+.footer .footer-top .show .group .group-list .list .item a .icon-9 {
+    background-position: 0 -120px;
+}
+
+.footer .footer-bottom {
+    background-color: #f1f1f1;
+    padding: 15px 0;
+}
+
+.footer .footer-bottom .copyright {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer .footer-bottom .copyright p {
+    color: #666;
+    font-size: 12px;
+}
